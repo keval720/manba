@@ -1,0 +1,53 @@
+#service-img img {
+  width: 55px;
+  height: 55px;
+}
+
+#service-cards {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 80px 50px;
+  background-color: #00adef;
+  border-radius: 30px;
+}
+
+#servicecards-mid-text p {
+  padding: 0px 0px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#servicecard-btn button {
+  color: #00adef;
+  text-transform: uppercase;
+  font-size: large;
+  border: none;
+  letter-spacing: 2px;
+  padding: 10px 50px;
+  border-radius: 50px;
+  background: linear-gradient(to left, #ffffff 50%, #d8d8d8 50%) right;
+  background-size: 200%;
+  transition: 1s linear;
+}
+
+#servicecard-btn button:hover {
+  background-position: left;
+  color: #202020;
+}
+
+#serviceacard-main-div {
+  background-color: #f1fafe;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* responsive */
+
+@media (max-width: 375px) {
+  #servicecard-btn button{
+    padding: 10px 30px;
+    font-size: medium;
+  }
+}

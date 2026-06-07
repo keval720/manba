@@ -1,0 +1,101 @@
+#homeabout-div {
+  background: url(../Assets/HomeAbout.png) no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+
+#homeabout-img img {
+  width: 636px;
+  height: 575.38;
+}
+
+#homeabout-title {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+#homeabout-title h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 43px;
+}
+
+#about-3line {
+  display: flex;
+  gap: 20px;
+}
+
+#border-div {
+  width: 1px;
+  height: 50px;
+  border: 1px dotted #2a6eb3;
+  margin: 0px 47px;
+}
+
+#about-info h3 {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+#about-info p {
+  margin-top: 20px;
+  padding-right: 130px;
+}
+
+#about-num-img {
+  margin-top: 20px;
+}
+
+#homeabout-main-div {
+  display: flex;
+}
+
+#homeabout-inner-div {
+  padding: 10px;
+}
+
+/* resposive */
+
+@media (max-width: 1400px) {
+  #about-info p {
+    margin-top: 20px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #homeabout-title h1 {
+    font-size: 35px;
+  }
+
+  #homeabout-title {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  #homeabout-main-div {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #homeabout-img img {
+    width: 100%;
+  }
+
+  #about-info p {
+    margin-top: 20px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 991px){
+  #about-info h3 {
+    font-size: large;
+  }
+  
+  #about-info p {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+}

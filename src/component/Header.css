@@ -1,0 +1,176 @@
+#nav-left {
+  display: flex;
+  align-items: center;
+}
+
+#nav-left span {
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #2a6eb3;
+}
+
+#nav-left img {
+  width: 60px;
+  height: 69px;
+}
+
+#nav-right ul {
+  margin: 0px;
+  list-style: none;
+  /* display: flex; */
+  gap: 40px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#nav-right a {
+  text-decoration: none;
+  color: rgba(39, 5, 60, 0.905);
+}
+
+#nav-right a:hover {
+  color: #00adef;
+}
+
+#main-div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#toggle-btn {
+  color: #000000;
+  font-size: 30px;
+  padding: 2px 8px;
+  display: none;
+}
+
+#nav-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* responsive design */
+
+/* mobile 375px */
+@media (max-width: 375px) {
+  #main-div {
+    display: block;
+  }
+
+  #nav-left span {
+    display: none;
+  }
+
+  #toggle-btn {
+    display: block;
+  }
+
+  #nav-right ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  
+}
+
+/* mobile 360px */
+@media (max-width: 360px) {
+  #main-div {
+    display: block;
+  }
+
+  #nav-left span {
+    display: none;
+  }
+
+  #toggle-btn {
+    display: block;
+  }
+
+  #nav-right ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  
+}
+
+/* mobile 320px */
+@media (max-width: 320px) {
+  #main-div {
+    display: block;
+  }
+
+  #nav-left span {
+    display: none;
+  }
+
+  #toggle-btn {
+    display: block;
+  }
+
+  #nav-right ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  
+}
+
+/* ipad 991px */
+@media (max-width: 991px) {
+  #main-div {
+    display: block;
+  }
+
+  #toggle-btn {
+    display: block;
+  }
+
+  #nav-right ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+}
+
+/* iphone 767px */
+@media (max-width: 767px) {
+  #main-div {
+    display: block;
+  }
+
+  #toggle-btn {
+    display: block;
+  }
+
+  #nav-right ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+}
+
+/* iphone 567px */
+@media (max-width: 567px) {
+  #main-div {
+    display: block;
+  }
+
+  #toggle-btn {
+    display: block;
+  }
+
+  #nav-right ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+}

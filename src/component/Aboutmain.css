@@ -1,0 +1,41 @@
+#aboutmain-title h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    color: #00ADEF;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+#box-img{
+    /* margin-top: 80px; */
+    border-radius: 50%;
+    line-height: 1;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+#inner-box{
+    background-color: #2DBCF6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    padding: 50px 0px;
+    margin: 20px;
+}
+
+#box-text h3{
+    margin: 30px 0px;
+    font-size: 36px;
+}
+
+#box-text p{
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#aboutmain-div{
+    padding-bottom: 80px;
+}

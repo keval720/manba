@@ -1,0 +1,72 @@
+#HomeCaseLoan-manage-div {
+  background: url(../Assets/cashloanimg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+#cashloan-apply-a {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 12px;
+  padding: 15px 27px;
+  border: 3px solid #00adef;
+  font-size: 18px;
+  background: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #00adef;
+  background: linear-gradient(to left, #ffffff 50%, #00adef 50%) right;
+  background-size: 200%;
+  transition: 1s linear;
+}
+
+#cashloan-apply-a:hover {
+  background-position: left;
+  color: white;
+  border: 3px solid #ffffff;
+}
+
+#cashloan-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#cashloan-text h1 {
+  color: #ffffff;
+  font-size: 43px;
+  font-weight: 700;
+}
+
+#cashloan-text span {
+  color: #00adef;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#cashloan-text p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#cashloan-img img {
+  width: 100%;
+  border: 8px solid #fff;
+  border-radius: 30px;
+}
+
+/* responsive */
+
+@media (max-width: 1400px){
+  #cashloan-img img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px){
+  #cashloan-text{
+    text-align: center;
+  }
+}

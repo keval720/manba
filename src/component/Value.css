@@ -1,0 +1,27 @@
+#value-title-div p {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+#value-title-div h1 {
+  color: #00adef;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#value-main-div {
+  background-color: #f1fafe;
+  box-shadow: 5px 1px 19px 0px rgba(0, 0, 0, 0.1);
+}
+
+#value-div {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+@media (max-width: 1400px) {
+    #create-div p{
+        font-size: larger;
+        padding-bottom: 20px;
+    }
+}

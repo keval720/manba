@@ -1,0 +1,81 @@
+#servicelink-div span {
+  color: #00adef;
+  font-size: 33px;
+  font-weight: 600;
+}
+
+#servicelink-div a {
+  font-size: 33px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#servicebanner-main-div {
+  background: url(../Assets/servicebanner.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#service-bannertext-div h1{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#service-bannertext-div span{
+    color: #00adef;
+}
+
+#service-bannertext-div p{
+    color: #ffffff;
+    font-size: x-large;
+    padding-right: 580px;
+    margin-top: 30px;
+    text-align: start;
+}
+
+#servicebanner-div{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+/* responsive */
+
+@media (max-width: 1200px){
+  #service-bannertext-div p{
+    color: #ffffff;
+    font-size: large;
+    padding-right: 480px;
+    margin-top: 30px;
+    text-align: start;
+}
+}
+
+@media (max-width: 1000px){
+  #service-bannertext-div p{
+    color: #ffffff;
+    font-size: medium;
+    padding-right: 450px;
+    margin-top: 30px;
+    text-align: start;
+}
+}
+
+@media (max-width: 991px){
+  
+  #servicebanner-div{
+    text-align: center;
+  }
+ 
+  #service-bannertext-div p{
+    color: #ffffff;
+    font-size: large;
+    margin-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+}

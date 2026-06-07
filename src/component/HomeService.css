@@ -1,0 +1,16 @@
+#HomeService-div {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1400px) {
+
+    #serviceimg-div img{
+        width: 100%;
+    }
+
+  #HomeService-div {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

@@ -1,0 +1,9 @@
+#success-text p{
+    padding: 0px 55px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+#HomeSuccess-manage-div{
+    padding-bottom: 100px;
+}

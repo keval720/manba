@@ -1,0 +1,12 @@
+#contactbanner {
+  background: url(../Assets/Contact-Us-Page.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0px;
+}
+
+@media (max-width: 991px){
+  #contactbanner {
+    padding: 150px 0px;
+  }
+}

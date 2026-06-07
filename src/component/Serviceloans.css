@@ -1,0 +1,33 @@
+#serviceloan-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#serviceloan-middle-div {
+    display: flex;
+    align-items: center;
+}
+
+#serviceloan-main-div h4{
+    font-weight: 700;
+}
+
+#serviceloan-main-div p{
+    font-size: 20px;
+}
+
+#serviceloan-upper-div{
+    width: 300px;
+}
+
+#serviceloan-bottom-div{
+    width: 300px;
+}
+
+#service-mid-img img{
+    width: 100%;
+}

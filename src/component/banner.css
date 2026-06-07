@@ -1,0 +1,251 @@
+#banner-div {
+  background: url(../Assets/Homeloansimg.png) no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#img-contant h2 {
+  color: #ffffff;
+  font-size: 48px;
+}
+
+#img-contant span {
+  color: #00adef;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#img-contant p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* responsive banner */
+
+@media only screen and (max-width: 1600px) {
+  #img-contant h2 {
+    color: #ffffff;
+    font-size: 44px;
+  }
+
+  #img-contant span {
+    color: #00adef;
+    font-size: 44px;
+    font-weight: 600;
+  }
+
+  #img-contant p {
+    color: #ffffff;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  #banner-div {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  #img-contant h2 {
+    color: #ffffff;
+    font-size: 40px;
+  }
+
+  #img-contant span {
+    color: #00adef;
+    font-size: 40px;
+  }
+
+  #img-contant p {
+    color: #ffffff;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  #banner-div {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  #img-contant h2 {
+    color: #ffffff;
+    font-size: 40px;
+  }
+
+  #img-contant span {
+    color: #00adef;
+    font-size: 40px;
+  }
+
+  #img-contant p {
+    color: #ffffff;
+    font-size: 18px;
+  }
+}
+
+/* ipad */
+
+@media only screen and (max-width: 1199px) {
+  #banner-div {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #img-contant h2 {
+    color: #ffffff;
+    font-size: 40px;
+  }
+
+  #img-contant span {
+    color: #00adef;
+    font-size: 40px;
+  }
+
+  #img-contant p {
+    color: #ffffff;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  #banner-div {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  #img-contant h2 {
+    color: #ffffff;
+    font-size: 35px;
+  }
+
+  #img-contant span {
+    color: #00adef;
+    font-size: 35px;
+  }
+
+  #img-contant p {
+    color: #ffffff;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  #banner-div {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  #img-contant h2 {
+    color: #ffffff;
+    font-size: 38px;
+  }
+
+  #img-contant span {
+    color: #00adef;
+    font-size: 38px;
+  }
+
+  #img-contant p {
+    color: #ffffff;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 567px) {
+  #banner-div {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  #img-contant h2 {
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  #img-contant span {
+    color: #00adef;
+    font-size: 30px;
+  }
+
+  #img-contant p {
+    color: #ffffff;
+    font-size: 12px;
+  }
+}
+
+/* mobile */
+
+@media (max-width: 375px){
+  #banner-div {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  #img-contant h2 {
+    color: #ffffff;
+    font-size: 24px;
+  }
+
+  #img-contant span {
+    color: #00adef;
+    font-size: 24px;
+  }
+
+  #img-contant p {
+    color: #ffffff;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px){
+  #banner-div {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  #img-contant h2 {
+    color: #ffffff;
+    font-size: 22px;
+  }
+
+  #img-contant span {
+    color: #00adef;
+    font-size: 22px;
+  }
+
+  #img-contant p {
+    color: #ffffff;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px){
+  #banner-div {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  #img-contant h2 {
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  #img-contant span {
+    color: #00adef;
+    font-size: 30px;
+  }
+
+  #img-contant p {
+    color: #ffffff;
+    font-size: 6px;
+  }
+}

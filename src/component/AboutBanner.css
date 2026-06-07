@@ -1,0 +1,18 @@
+#aboutBanner span{
+    color: #00ADEF;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#banner-img{
+    background: url(../Assets/aboutBanner.png) no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    margin-bottom: 80px;
+}
+
+#aboutBanner a{
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+}
