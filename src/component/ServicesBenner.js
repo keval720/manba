@@ -1,6 +1,5 @@
 import React from "react";
 import "../component/ServicesBanner.css";
-import { Link } from "react-router-dom";
 
 const ServicesBenner = () => {
   return (

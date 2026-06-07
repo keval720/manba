@@ -2,7 +2,6 @@ import React from "react";
 import "../component/Header.css";
 import logo from "../Assets/logo.png";
 import { IoMenu } from "react-icons/io5";
-import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
